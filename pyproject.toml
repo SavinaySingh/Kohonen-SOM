@@ -1,0 +1,18 @@
+[project]
+name = "kohonen-notebook"
+version = "0.1.0"
+description = "A Jupyter notebook project for Kohonen maps"
+readme = "README.md"
+requires-python = ">=3.8"
+
+# Main dependencies
+dependencies = [
+    "jupyter",
+    "ipykernel",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scikit-learn",
+    "torch"
+]
+
